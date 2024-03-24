@@ -1,0 +1,27 @@
+.wrapper {
+    @apply flex justify-center items-center;
+
+    &--right {
+        @apply justify-end items-stretch;
+    }
+}
+
+.content {
+    @apply flex flex-col gap-4 p-4 w-96 rounded border-gray-100 bg-white overflow-auto;
+
+    &--right {
+        @apply w-full rounded-none;
+    }
+
+    @screen md {
+        &--right {
+            @apply w-2/3;
+        }
+    }
+
+    @screen lg {
+        &--right {
+            @apply w-1/2 rounded-r-none;
+        }
+    }
+}

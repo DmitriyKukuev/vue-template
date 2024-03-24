@@ -1,5 +1,5 @@
 import 'vue-final-modal/style.css';
-import '@/app.css';
+import '@/css/app.css';
 import {createRouter, createWebHistory} from 'vue-router';
 import {createPinia} from 'pinia';
 import {createVfm} from 'vue-final-modal';

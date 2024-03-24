@@ -17,6 +17,6 @@ import BaseLayout from '@/components/layouts/BaseLayout.vue';
 import {show} from '@/helper/popup.ts';
 
 function examplePopup() {
-    show('error')
+    show('error');
 }
 </script>

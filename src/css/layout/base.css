@@ -1,0 +1,10 @@
+@layer base {
+    body,
+    #app {
+        @apply min-h-screen;
+    }
+
+    #app {
+        @apply flex flex-col;
+    }
+}
